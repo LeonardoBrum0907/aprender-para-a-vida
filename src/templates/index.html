@@ -1,11 +1,56 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Aprender para vida</title>
+    <title>Menu de Navegação</title>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #090979;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 20px 80px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #2323be;
+        }
+
+        body {
+            background-image: url('logopng.png');
+            background-repeat: no-repeat;
+            background-position: center center; /* horizontal vertical */
+            background-size: cover;
+            height: 100%;
+        }
+
+        html, body {
+            height: 100%;
+            overflow: auto;
+        }
+    </style>
 </head>
-<body style="background-color: #000; color: white;">
-      <h1>Hello world</h1>
+<body>
+
+<ul>
+  <li><a href="#home">Quem somos?</a></li>
+  <li><a href="#sobre">O que fazemos?</a></li>
+  <li><a href="#ajuda">Como ajudar?</a></li>
+  <li><a href="#cadastro">Cadastro</a></li>
+  <li><a href="#news">Notícias</a></li>
+  <li><a href="#contact">Contato</a></li>
+  </ul>
+
 </body>
 </html>
