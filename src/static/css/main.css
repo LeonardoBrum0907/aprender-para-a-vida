@@ -42,6 +42,14 @@ body {
       color: #000;
 }
 
+.bg-white {
+      background-color: #fff;
+}
+
+.radius-1 {
+      border-radius: 0.25rem;
+}
+
 .bg-blue-1 {
       background-color: #57E4FF;
 }
