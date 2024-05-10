@@ -16,12 +16,6 @@ import os
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-# Cores em formato hexadecimal
-COR_PRIMARIA = "#57E4FF"
-COR_SECUNDARIA = "#0e387a"
-COR_TERCIARIA = "#1C52C5"
-
-
 # Quick-start development settings - unsuitable for production
 # See https://docs.djangoproject.com/en/5.0/howto/deployment/checklist/
 
@@ -31,7 +25,8 @@ SECRET_KEY = 'django-insecure-^^l9@4e&o+8yik3e_ig=h6a#d-)d32ofwh=-m%t&^xuo&v%rsn
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['.vercel.app']
+# ALLOWED_HOSTS = ['.vercel.app']
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -43,7 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'src.apps.SrcConfig'
+    'src'
 ]
 
 MIDDLEWARE = [
@@ -122,12 +117,12 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/5.0/howto/static-files/
 
-STATIC_URL = 'static/'
+STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 
 # STATICFILES_DIR = [BASE_DIR / "static"]
 STATICFILES_DIR = [
-    os.path.join(BASE_DIR,'static')
+    os.path.join(BASE_DIR,'layout/static')
 ]
 
 # Default primary key field type
