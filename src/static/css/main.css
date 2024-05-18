@@ -46,6 +46,10 @@ body {
       color: #000;
 }
 
+.radius-1 {
+      border-radius: 0.25rem;
+}
+
 .bg-black {
       background-color: #000;
 }

@@ -42,7 +42,6 @@ def voluntarios(request):
       return render(request, 'aprender_para_vida/voluntarios.html', {'menu': menu})
 def contato(request):
       return render(request, 'aprender_para_vida/contato.html', {'menu': menu})
-
 def base(request):
       return render(request, 'aprender_para_vida/base.html', {'menu': menu})
 
