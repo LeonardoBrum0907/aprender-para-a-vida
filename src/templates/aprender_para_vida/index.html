@@ -3,20 +3,44 @@
 
 {% block template  %}
 
-<section class="screen bg-blue-1 d-flex align-items-center">
+<section class="screen screen-1 bg-white d-flex align-items-center">
     <div class="row">
-        <div class="col-sm-6 d-flex flex-column justify-content-center">
-            <p class="h1">Teste</p>
+        <div class="col-sm-5 offset-sm-1 d-flex flex-column justify-content-center">
+            <p class="fs-1 fw-semibold">Nossa História</p>
             <p>
                 A.A.P.V iniciou suas ações no ano de 2013, naquele momento com a finalidade de prestar assistência as pessoas com questões relacionadas a dependência química, posteriormente as ações foram ampliadas para outras áreas, assistência social, psicologia, área jurídica.  Atualmente desenvolvemos o Projeto “Bom Samaritano” (projeto que visa acolhimento, assistência e orientação de familiares das pessoas que estão em cumprimento de pena privativa de liberdade no complexo penitenciário de Hortolândia-SP
             </p>
-            <button>Clique aqui</button>
         </div>
-        <div class="col-sm-6">
-            <div class="d-flex justify-content-center">
-                <img src="{% static 'imagens/imagem-01.png' %}" style="max-height: 20rem;" alt="">
+        <div class="col-sm-5">
+            <div class="d-flex justify-content-end">
+                <img src="{% static 'imagens/imagem-04.jpg' %}" style="max-height: 20rem;" alt="">
             </div>
         </div>
     </div>
 </section>
+
+<section class="screen screen-2 fluid bg-blue-1">
+    <p class="fs-1 fw-semibold" style="text-align: center;">Missão</p>
+    <div class="row">
+        <div class="col-sm-8 offset-sm-2 d-flex align-items-center gap-3 mt-4">
+            <img src="{% static 'imagens/icone-01.png' %}" style="max-height: 7rem;" alt="">
+            <p>
+                Contribuir para a transformação da vida da pessoa com deficiência e sua família Realizar, promover e articular ações de defesa de direitos e prevenção, orientações, prestação de serviços, apoio à família, direcionadas à melhoria da qualidade de vida da pessoa com transtornos do neurodesenvolvimento e em vulnerabilidade social, visando a construção de uma sociedade justa e solidária. 
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="screen screen-3 fluid bg-darkness">
+    <p class="fs-1 fw-semibold" style="text-align: center;">Missão</p>
+    <div class="row">
+        <div class="col-sm-8 offset-sm-2 d-flex align-items-center gap-3 mt-4">
+            <img src="{% static 'imagens/icone-01.png' %}" style="max-height: 7rem;" alt="">
+            <p>
+                Contribuir para a transformação da vida da pessoa com deficiência e sua família Realizar, promover e articular ações de defesa de direitos e prevenção, orientações, prestação de serviços, apoio à família, direcionadas à melhoria da qualidade de vida da pessoa com transtornos do neurodesenvolvimento e em vulnerabilidade social, visando a construção de uma sociedade justa e solidária. 
+            </p>
+        </div>
+    </div>
+</section>
+
 {% endblock  %}
