@@ -11,6 +11,7 @@ body {
       min-height: calc(100 * var(--vh));
       min-height: 100svh;
       background-color: #f9f9fb;
+      overflow-x: hidden;
 }
 .screen {
       position: relative;
@@ -20,77 +21,6 @@ body {
       min-height: 100svh;
       padding-top: 1rem;
 }
-<<<<<<< HEAD
-
-.padding-top{
-      padding-top: 1rem;
-}
-
-
-body {
-    font-family: 'Roboto', sans-serif;
-}
-
-.tela, .screen {
-    position: relative;
-    min-height: 100vh;
-    background-color: #f9f9fb;
-    padding-top: 1rem;
-}
-
-.seletor {
-    padding-top: 5%;
-}
-
-.screen.fluid {
-    min-height: unset;
-}
-
-.blue-1 {
-    color: #57E4FF;
-}
-
-.blue-2 {
-    color: #1C52C5;
-}
-
-.blue-3 {
-    color: #0e387a;
-}
-
-.white {
-    color: #fff;
-}
-
-.black {
-    color: #000;
-}
-
-.bg-white {
-    background-color: #fff;
-}
-
-.radius-1 {
-    border-radius: 0.25rem;
-}
-
-.bg-blue-1 {
-    background-color: #57E4FF;
-}
-
-.bg-blue-2 {
-    background-color: #1C52C5;
-}
-
-.bg-blue-3 {
-    background-color: #0e387a;
-}
-
-
-
-
-=======
->>>>>>> 1b3280295cfcd502664d5922fa131564fa16e2f3
 .screen.fluid {
       min-height: unset;
 }
@@ -126,7 +56,7 @@ body {
       background-color: #000;
 }
 .bg-darkness {
-      background-color: #363636;
+      background-color: #132E32;
 }
 .bg-white {
       background-color: #fff;
