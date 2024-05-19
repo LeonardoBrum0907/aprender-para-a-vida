@@ -5,15 +5,15 @@ menu = [
             'titulo': 'Início',
             'url': '/'
       },
-      {
-            'titulo': 'O que fazemos',
-            'sub_menu': [
-                  {
-                        'titulo': 'Bom Samaritano',
-                        'url': '/bom-samaritano'
-                  }
-            ]
-      },
+      # {
+      #       'titulo': 'O que fazemos',
+      #       'sub_menu': [
+      #             {
+      #                   'titulo': 'Bom Samaritano',
+      #                   'url': '/bom-samaritano'
+      #             }
+      #       ]
+      # },
       {
             'titulo': 'Como ajudar',
             'sub_menu': [
