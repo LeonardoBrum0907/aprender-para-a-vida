@@ -17,8 +17,74 @@ body {
       min-height: 100vh;
       min-height: calc(100 * var(--vh));
       min-height: 100svh;
-      padding: 5rem;
+      padding-top: 1rem;
 }
+
+.padding-top{
+      padding-top: 1rem;
+}
+
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.tela, .screen {
+    position: relative;
+    min-height: 100vh;
+    background-color: #f9f9fb;
+    padding-top: 1rem;
+}
+
+.seletor {
+    padding-top: 5%;
+}
+
+.screen.fluid {
+    min-height: unset;
+}
+
+.blue-1 {
+    color: #57E4FF;
+}
+
+.blue-2 {
+    color: #1C52C5;
+}
+
+.blue-3 {
+    color: #0e387a;
+}
+
+.white {
+    color: #fff;
+}
+
+.black {
+    color: #000;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.radius-1 {
+    border-radius: 0.25rem;
+}
+
+.bg-blue-1 {
+    background-color: #57E4FF;
+}
+
+.bg-blue-2 {
+    background-color: #1C52C5;
+}
+
+.bg-blue-3 {
+    background-color: #0e387a;
+}
+
+
 
 
 .screen.fluid {
@@ -59,3 +125,4 @@ body {
 .bg-blue-3 {
       background-color: #0e387a;
 }
+
