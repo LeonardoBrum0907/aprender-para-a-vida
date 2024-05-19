@@ -1,7 +1,9 @@
+/*estilos base*/
 body {
       font-family: 'Roboto', sans-serif;
+      color: #3f3f3f;
+      /* font-size: 16px; */
 }
-
 .tela {
       position: relative;
       min-height: 100%;
@@ -10,7 +12,6 @@ body {
       min-height: 100svh;
       background-color: #f9f9fb;
 }
-
 .screen {
       position: relative;
       min-height: 100%;
@@ -19,6 +20,7 @@ body {
       min-height: 100svh;
       padding-top: 1rem;
 }
+<<<<<<< HEAD
 
 .padding-top{
       padding-top: 1rem;
@@ -87,10 +89,18 @@ body {
 
 
 
+=======
+>>>>>>> 1b3280295cfcd502664d5922fa131564fa16e2f3
 .screen.fluid {
       min-height: unset;
 }
-  
+
+/*estilos de espaçamentos*/
+.padding-top {
+      padding-top: 1rem;
+}
+
+/*estilos de cores de fontes e cores de fundo*/
 .blue-1 {
       color: #57E4FF;
 }
@@ -108,14 +118,19 @@ body {
       color: #000;
 }
 
-.bg-white {
-      background-color: #fff;
-}
-
 .radius-1 {
       border-radius: 0.25rem;
 }
 
+.bg-black {
+      background-color: #000;
+}
+.bg-darkness {
+      background-color: #363636;
+}
+.bg-white {
+      background-color: #fff;
+}
 .bg-blue-1 {
       background-color: #57E4FF;
 }

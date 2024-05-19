@@ -1,22 +1,143 @@
-{% extends  "./base.html" %}
+{% extends "./base.html" %}
 {% load static %}
 
-{% block template  %}
+{% block template %}
 
-<section class="screen bg-blue-1 d-flex align-items-center">
+<section class="screen screen-1 bg-white d-flex align-items-center">
     <div class="row">
-        <div class="col-sm-6 d-flex flex-column justify-content-center">
-            <p class="h1">Teste</p>
+        <div class="col-sm-5 offset-sm-1 d-flex flex-column justify-content-center">
+            <p class="fs-1 fw-semibold">Nossa História</p>
             <p>
-                A.A.P.V iniciou suas ações no ano de 2013, naquele momento com a finalidade de prestar assistência as pessoas com questões relacionadas a dependência química, posteriormente as ações foram ampliadas para outras áreas, assistência social, psicologia, área jurídica.  Atualmente desenvolvemos o Projeto “Bom Samaritano” (projeto que visa acolhimento, assistência e orientação de familiares das pessoas que estão em cumprimento de pena privativa de liberdade no complexo penitenciário de Hortolândia-SP
+                A.A.P.V iniciou suas ações no ano de 2013, naquele momento com a finalidade de prestar assistência as
+                pessoas com questões relacionadas a dependência química, posteriormente as ações foram ampliadas para
+                outras áreas, assistência social, psicologia, área jurídica. 
             </p>
-            <button>Clique aqui</button>
+            <p>
+                Atualmente desenvolvemos o Projeto “Bom
+                Samaritano” (projeto que visa acolhimento, assistência e orientação de familiares das pessoas que estão
+                em cumprimento de pena privativa de liberdade no complexo penitenciário de Hortolândia-SP.
+            </p>
         </div>
-        <div class="col-sm-6">
-            <div class="d-flex justify-content-center">
-                <img src="{% static 'imagens/imagem-01.png' %}" style="max-height: 20rem;" alt="">
+        <div class="col-sm-5">
+            <div class="d-flex justify-content-end">
+                <img src="{% static 'imagens/imagem-04.jpg' %}" style="max-height: 20rem;" alt="">
             </div>
         </div>
     </div>
 </section>
-{% endblock  %}
+
+<section class="screen screen-2 fluid bg-blue-1">
+    <p class="fs-1 fw-semibold" style="text-align: center;">Missão</p>
+    <div class="row">
+        <div class="col-sm-8 offset-sm-2 d-flex align-items-center gap-3 mt-4">
+            <img src="{% static 'imagens/icone-01.png' %}" style="max-height: 7rem;" alt="">
+            <p>
+                Contribuir para a transformação da vida da pessoa com deficiência e sua família Realizar, promover e
+                articular ações de defesa de direitos e prevenção, orientações, prestação de serviços, apoio à família,
+                direcionadas à melhoria da qualidade de vida da pessoa com transtornos do neurodesenvolvimento e em
+                vulnerabilidade social, visando a construção de uma sociedade justa e solidária. 
+            </p>
+        </div>
+    </div>
+</section>
+
+<section class="screen screen-3 d-flex align-items-center">
+    <div class="row">
+        <div class="col-sm-5 d-flex align-items-center justify-content-center">
+            <div>
+                <img src="{% static 'imagens/imagem-05.png' %}" style="max-height: 20rem;" alt="">
+            </div>
+        </div>
+        <div class="col-sm-5 offset-sm-1 d-flex flex-column justify-content-center">
+            <div class="bg-white p-5">
+                <p class="fs-1 fw-semibold">Visão</p>
+                <p>
+                    Ser referência no atendimento especializado nas áreas de assistência social, educação e saúde às
+                    pessoas
+                    com transtornos do neurodesenvolvimento e em situação de vulnerabilidade social. 
+                </p>
+                <p>
+                    Temos como visão a construção de uma sociedade inclusiva e acolhedora, onde todas as pessoas com
+                    transtornos do neurodesenvolvimento e em situação de vulnerabilidade social tenham a oportunidade de
+                    desenvolver seu potencial máximo, alcançar autonomia e participar ativamente na vida social. 
+                </p>
+                <p>
+                    Nosso trabalho visa ser referência em atendimento especializado, promovendo inclusão, o respeito e a
+                    igualdade de direitos para todos.  
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="screen screen-4 d-flex flex-column justify-content-center">
+    <p class="fs-1 fw-semibold" style="text-align: center;">Valores</p>
+    <div class="row">
+        <div class="col-sm-5 offset-sm-1 d-flex flex-column justify-content-center align-items-center">
+            <p>
+                Nossos valores fundamentais são a ética, o respeito, a valorização da diversidade e a promoção da
+                dignidade humana. 
+            </p>
+            <p>
+                Acreditamos na importância do trabalho em equipe, na busca constante pela excelência, na
+                transparência e
+                na responsabilidade social. 
+            </p>
+            <p>
+                Valorizamos a participação ativa das famílias e da comunidade em geral, buscando sempre promover o
+                bem-estar e a qualidade de vida das pessoas atendidas. 
+            </p>
+        </div>
+        <div class="col-sm-5 offset-sm-1 d-flex flex-column justify-content-center align-items-center gap-3">
+            <div class="valores-box item-01">
+                Ética
+            </div>
+            <div class="valores-box item-02">
+                Respeito
+            </div>
+            <div class="valores-box item-03">
+                Diversidade
+            </div>
+            <div class="valores-box item-04">
+                Dignidade
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    .screen-3 {
+        background-color: #000;
+        background: url("../../static/imagens/bg-02.png") no-repeat;
+        background-size: 100% 100%;
+        background-position: center bottom;
+    }
+
+    .valores-box {
+        width: 15rem;
+        height: 4rem;
+        border-radius: 50px;
+        box-shadow: 0 5px 10px rgba(61, 61, 61, 0.5);
+        font-size: 1.5rem;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        padding: 0 0 0 2rem;
+        color: #fff;
+    }
+
+    .valores-box.item-01 {
+        background-color: #0090C1;
+    }
+    .valores-box.item-02 {
+        background-color: #046E8F;
+    }
+    .valores-box.item-03 {
+        background-color: #183446;
+    }
+    .valores-box.item-04 {
+        background-color: #022F40;
+    }
+</style>
+
+{% endblock %}

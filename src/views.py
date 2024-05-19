@@ -2,7 +2,7 @@ from django.shortcuts import render, Http404, get_object_or_404
 from .models import User
 menu = [
       {
-            'titulo': 'Home',
+            'titulo': 'Início',
             'url': '/'
       },
       {
@@ -44,6 +44,3 @@ def contato(request):
       return render(request, 'aprender_para_vida/contato.html', {'menu': menu})
 def base(request):
       return render(request, 'aprender_para_vida/base.html', {'menu': menu})
-
-
-# Create your views here.
