@@ -11,6 +11,7 @@ body {
       min-height: calc(100 * var(--vh));
       min-height: 100svh;
       background-color: #f9f9fb;
+      overflow-x: hidden;
 }
 .screen {
       position: relative;
@@ -18,7 +19,7 @@ body {
       min-height: 100vh;
       min-height: calc(100 * var(--vh));
       min-height: 100svh;
-      padding: 5rem;
+      padding-top: 1rem;
 }
 .screen.fluid {
       min-height: unset;
@@ -55,7 +56,7 @@ body {
       background-color: #000;
 }
 .bg-darkness {
-      background-color: #363636;
+      background-color: #132E32;
 }
 .bg-white {
       background-color: #fff;
@@ -69,3 +70,4 @@ body {
 .bg-blue-3 {
       background-color: #0e387a;
 }
+

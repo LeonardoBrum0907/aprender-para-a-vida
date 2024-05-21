@@ -5,15 +5,15 @@ menu = [
             'titulo': 'Início',
             'url': '/'
       },
-      {
-            'titulo': 'O que fazemos',
-            'sub_menu': [
-                  {
-                        'titulo': 'Bom Samaritano',
-                        'url': '/bom-samaritano'
-                  }
-            ]
-      },
+      # {
+      #       'titulo': 'O que fazemos',
+      #       'sub_menu': [
+      #             {
+      #                   'titulo': 'Bom Samaritano',
+      #                   'url': '/bom-samaritano'
+      #             }
+      #       ]
+      # },
       {
             'titulo': 'Como ajudar',
             'sub_menu': [
@@ -44,6 +44,3 @@ def contato(request):
       return render(request, 'aprender_para_vida/contato.html', {'menu': menu})
 def base(request):
       return render(request, 'aprender_para_vida/base.html', {'menu': menu})
-
-
-# Create your views here.
