@@ -15,10 +15,12 @@
     <link rel="stylesheet" href="{% static 'css/main.css' %}" />
   </head>
 
-  <body class="tela">
-    <nav class="navbar fixed-top navbar-expand-md bg-body-tertiary px-5">
+  <body class="tela" style="padding-top: 4rem;">
+    <nav class="navbar fixed-top navbar-expand-md bg-blue-1 px-5" style="max-height: 5rem;">
       <div class="container-fluid">
-        <a class="navbar-brand" href="/">AprenderVida</a>
+        <a class="navbar-brand" href="/">
+          <img src="{% static 'imagens/logo.png' %}" style="max-width: 14rem;" alt="">
+        </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
         <div class="collapse navbar-collapse justify-content-center" id="navbarNavDropdown">
           <ul class="navbar-nav flex gap-4">
