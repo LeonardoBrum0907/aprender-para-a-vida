@@ -26,12 +26,12 @@
     </div>
 </section>
 
-<section class="screen screen-2 fluid bg-blue-1">
-    <p class="fs-1 fw-semibold" style="text-align: center;">Missão</p>
+<section class="screen screen-2 fluid bg-blue-2 py-5">
+    <p class="fs-1 fw-semibold white" style="text-align: center;">Missão</p>
     <div class="row">
-        <div class="col-sm-8 offset-sm-2 d-flex align-items-center gap-3 mt-4">
+        <div class="col-sm-8 offset-sm-2 d-flex align-items-center gap-3 mt-2">
             <img src="{% static 'imagens/icone-01.png' %}" style="max-height: 7rem;" alt="">
-            <p>
+            <p class="white">
                 Contribuir para a transformação da vida da pessoa com deficiência e sua família Realizar, promover e
                 articular ações de defesa de direitos e prevenção, orientações, prestação de serviços, apoio à família,
                 direcionadas à melhoria da qualidade de vida da pessoa com transtornos do neurodesenvolvimento e em
@@ -40,8 +40,34 @@
         </div>
     </div>
 </section>
+<section class="screen screen-3 fluid bg-blue-3 py-5 white">
+    <p class="fs-1 fw-semibold" style="text-align: center;">Nosso trabalho</p>
+    <div class="d-flex justify-content-center">
+        <div class="divisor bg-white"></div>
+    </div>
+    <div class="row">
+        <div class="col-sm-3 offset-sm-2">
+            <div class="d-flex flex-column justify-content-center align-items-center">
+                <span class="fs-1 fw-bold">+1.500</span>
+                <span>Pessoas que apoiamos</span>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="d-flex flex-column justify-content-center align-items-center">
+                <span class="fs-1 fw-bold">+1.500</span>
+                <span>Refeições distribuídas</span>
+            </div>
+        </div>
+        <div class="col-sm-3">
+            <div class="d-flex flex-column justify-content-center align-items-center">
+                <span class="fs-1 fw-bold">16</span>
+                <span>Voluntários que nos apoiam</span>
+            </div>
+        </div>
+    </div>
+</section>
 
-<section class="screen screen-3 d-flex align-items-center">
+<section class="screen screen-4 d-flex align-items-center">
     <div class="row">
         <div class="col-sm-5 d-flex align-items-center justify-content-center">
             <div>
@@ -70,7 +96,7 @@
     </div>
 </section>
 
-<section class="screen screen-4 d-flex flex-column justify-content-center">
+<section class="screen screen-5 d-flex flex-column justify-content-center">
     <p class="fs-1 fw-semibold" style="text-align: center;">Valores</p>
     <div class="row">
         <div class="col-sm-5 offset-sm-1 d-flex flex-column justify-content-center align-items-center">
@@ -106,7 +132,7 @@
 </section>
 
 <style>
-    .screen-3 {
+    .screen-4 {
         background-color: #000;
         background: url("../../static/imagens/bg-02.png") no-repeat;
         background-size: 100% 100%;
@@ -137,6 +163,11 @@
     }
     .valores-box.item-04 {
         background-color: #022F40;
+    }
+    .divisor {
+        width: 80%;
+        height: 1px;
+        margin: 0 0 2rem;
     }
 </style>
 

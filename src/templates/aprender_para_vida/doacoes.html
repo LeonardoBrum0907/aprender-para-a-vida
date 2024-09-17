@@ -2,11 +2,52 @@
 {% load static %}
 
 {% block template  %}
-<section class="screen bg-blue-1">
-    <div class="row">
-        <div class="col-sm-12">
-            <h1>Doações</h1>
+<section class="screen bg-white d-flex align-items-center py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 pt-2 mb-4 mb-lg-0">
+                <h1 class="mb-4">Seja um doador e ajude a transformar vidas!</h1>
+                <p>A Associação Aprender Para a Vida está comprometida em apoiar pessoas em situação de vulnerabilidade psicossocial.</p>
+                <p>Muitos enfrentam desafios emocionais, isolamento e dificuldades diárias.</p>
+                <p>Com sua doação, podemos oferecer:</p>
+                <ul class="list-unstyled ml-4 mb-4">
+                    <li>- Aconselhamento psicológico, emocional e jurídico</li>
+                    <li>- Grupos de apoio e terapias.</li>
+                    <li>- Acesso a recursos básicos, como alimentação e higiene</li>
+                </ul>
+                <h3 class="mb-3">Você pode contribuir com: </h3>
+                <ul class="list-unstyled ml-4 mb-4">
+                    <li>- Alimentos não perecíveis</li>
+                    <li>- Itens de higiene pessoal.</li>
+                    <li>- Roupas e calçados</li>
+                </ul>
+                <h5 class="mb-3">Localização:</h5>
+                <p >R. Francisco Garcia, 445 - Parque Sao Miguel, Hortolândia - SP, 13186-625</p>
+                <p >Horário de atendimento: Segunda a sexta-feira, das 8h às 18h</p>
+                <p >Gratidão por ser parte dessa rede solidária! Sua contribuição faz a diferença. Junte-se a nós nessa jornada de esperança e transformação!</p>
+            </div>
+            <div class="col-lg-6 mb-4 lg-0">
+                <h5 class="mb-3">Ao comprar este livro você estará contribuindo para a Associação Aprender Para a Vida, pois um terço do valor de cada exemplar vendido será doado para a associação.:</h5>
+                <div class="row mb-6">
+                    <div class="col-md-5 mr-5">
+                        <img class="img-fluid mb-3 mb-md-0" src="{% static 'imagens/CAPANOVO.jpg' %}" alt="Primeiro Slide">
+                    </div>
+                    <div class="col-md-5">
+                        <img class="img-fluid" src="{% static 'imagens/CONTRACAPANOVO.jpg' %}" alt="Segundo Slide">
+                    </div>
+                </div>
+                <div class="col-md-5">
+                <ul class="list-unstyled">
+                    <li><a href="https://produto.mercadolivre.com.br/MLB-4682692292-livro-_JM"><button class="btn btn-primary bg-green">Clique aqui e adquira o seu exemplar</button></a>
+                </ul>
+                </div>
+                <h3 class="mt-3">Doe qualquer valor via Pix:</h3>
+                <div class="text-center py-4 mb-4">
+                    <p class="font-weight-bold h4">Chave: Cnpj 19.370.115/0001-04</p>
+                </div>
+            </div>
         </div>
     </div>
 </section>
 {% endblock  %}
+
